@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 340px; height: 92px; overflow: hidden; background: #0a0a0c; }
+    .logo { display: flex; align-items: center; gap: 22px; padding: 10px 0; }
+    .logo-icon { width: 72px; height: 72px; flex-shrink: 0; }
+    .logo-text { display: flex; flex-direction: column; gap: 6px; }
+    .wordmark {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 44px; line-height: 1; letter-spacing: -0.5px;
+      color: #f0ede8;
+    }
+    .tagline {
+      font-family: 'DM Sans', Arial, sans-serif;
+      font-size: 11px; letter-spacing: 2.8px; text-transform: uppercase;
+      color: #8a8680;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <svg class="logo-icon" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+      <!-- Subtle ring so the icon reads on near-black background -->
+      <rect width="72" height="72" rx="16" fill="#1c1c1f"/>
+      <polyline points="4,36 16,36 22,29 29,9 36,52 43,36 50,36 68,36"
+        fill="none" stroke="#dc503c" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div class="logo-text">
+      <span class="wordmark">latido</span>
+      <span class="tagline">Tecnología con propósito</span>
+    </div>
+  </div>
+</body>
+</html>
