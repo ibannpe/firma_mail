@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latido — Logo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'DM Sans', sans-serif; }
+
+    .variant {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 72px;
+      min-height: 220px;
+    }
+
+    .dark { background: #0a0a0c; }
+    .light { background: #f5f2ed; }
+    .white { background: #ffffff; }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      user-select: none;
+    }
+
+    .logo-icon { width: 72px; height: 72px; flex-shrink: 0; }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .wordmark {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 44px;
+      line-height: 1;
+      letter-spacing: -0.5px;
+    }
+
+    .tagline {
+      font-family: 'DM Sans', Arial, sans-serif;
+      font-size: 11px;
+      letter-spacing: 2.8px;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+
+    .dark .wordmark  { color: #f0ede8; }
+    .dark .tagline   { color: #8a8680; }
+
+    .light .wordmark { color: #0a0a0c; }
+    .light .tagline  { color: #8a8680; }
+
+    .white .wordmark { color: #0a0a0c; }
+    .white .tagline  { color: #8a8680; }
+
+    .label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 8px 24px;
+      opacity: 0.35;
+    }
+
+    .dark .label   { color: #f0ede8; }
+    .light .label  { color: #0a0a0c; }
+    .white .label  { color: #0a0a0c; }
+
+    .divider { height: 1px; background: rgba(128,128,128,0.15); }
+  </style>
+</head>
+<body>
+
+  <!-- ─── DARK ─── -->
+  <div class="variant dark">
+    <div style="display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+      <span class="label dark">Versión oscura</span>
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+          <rect width="72" height="72" rx="16" fill="#161618"/>
+          <polyline
+            points="4,36 16,36 22,29 29,9 36,52 43,36 50,36 68,36"
+            fill="none"
+            stroke="#dc503c"
+            stroke-width="3.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div class="logo-text">
+          <span class="wordmark">latido</span>
+          <span class="tagline">Hecho con propósito</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ─── LIGHT ─── -->
+  <div class="variant light">
+    <div style="display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+      <span class="label light">Versión clara</span>
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+          <rect width="72" height="72" rx="16" fill="#0a0a0c"/>
+          <polyline
+            points="4,36 16,36 22,29 29,9 36,52 43,36 50,36 68,36"
+            fill="none"
+            stroke="#dc503c"
+            stroke-width="3.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div class="logo-text">
+          <span class="wordmark">latido</span>
+          <span class="tagline">Hecho con propósito</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ─── WHITE ─── -->
+  <div class="variant white">
+    <div style="display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+      <span class="label white">Versión blanca (firma de correo)</span>
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+          <rect width="72" height="72" rx="16" fill="#0a0a0c"/>
+          <polyline
+            points="4,36 16,36 22,29 29,9 36,52 43,36 50,36 68,36"
+            fill="none"
+            stroke="#dc503c"
+            stroke-width="3.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div class="logo-text">
+          <span class="wordmark">latido</span>
+          <span class="tagline">Hecho con propósito</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

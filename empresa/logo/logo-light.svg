@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 92" width="340" height="92">
+  <!-- Icon mark -->
+  <rect x="0" y="10" width="72" height="72" rx="16" fill="#0a0a0c"/>
+  <polyline
+    points="4,46 16,46 22,39 29,19 36,62 43,46 50,46 68,46"
+    fill="none"
+    stroke="#dc503c"
+    stroke-width="3.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Wordmark -->
+  <text x="90" y="58"
+    font-family="'Instrument Serif', Georgia, 'Times New Roman', serif"
+    font-size="44"
+    fill="#0a0a0c"
+    letter-spacing="-0.5">latido</text>
+
+  <!-- Tagline -->
+  <text x="91" y="78"
+    font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif"
+    font-size="10.5"
+    fill="#8a8680"
+    letter-spacing="2.8">HECHO CON PROPÓSITO</text>
+</svg>
